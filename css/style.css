@@ -1281,6 +1281,82 @@ input.btn-send:hover {
 
 }
 
+@media (max-width: 650px) {
+    .container {
+        max-width: 480px;
+    }
+
+    .top-menu ul {
+        width: 400px
+    }
+
+    .promotion-buttons {
+        width: 65%;
+    }
+
+    .menu-element {
+        max-width: 450px;
+    }
+
+    .promotion-header {
+        font-size: 30px;
+        width: 450px;
+        text-align: center;
+    }
+
+    .promotion-text {
+        font-size: 12px;
+        max-width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+    .header-video {
+        width: 400px;
+    }
+
+    .achive {
+        width: 100%;
+    }
+
+    .slider {
+        width: 480px;
+    }
+
+
+    .member-info {
+        width: 470px;
+        margin-right: 10px;
+    }
+
+    #member-1:checked ~ .slider .slider-wrapper {
+        transform: translateX(490px);
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #member-2:checked ~ .slider .slider-wrapper {
+        transform: translateX(0px);
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #member-3:checked ~ .slider .slider-wrapper {
+        transform: translateX(-490px);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .contact-form {
+        width: 80%;
+    }
+
+
+}
+
 
 
 

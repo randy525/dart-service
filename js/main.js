@@ -2,7 +2,7 @@ let buttonPlay = document.querySelector('.play');
 let video = document.querySelector('.header-video');
 
 let getVideo = function() {
-    video.innerHTML = `<iframe width="${video.offsetWidth}" height="${video.clientHeight}" src="https://www.youtube.com/embed/5wX3bboa0Bk?autoplay=1&loop=1&&playlist=Video_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    video.innerHTML = `<iframe width="${video.offsetWidth}" height="${video.clientHeight}" src="https://www.youtube.com/embed/9vcKTGVHSBw?autoplay=1&loop=1&&playlist=Video_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 }
 
 buttonPlay.addEventListener('click', getVideo);
@@ -22,7 +22,7 @@ $(document).ready(function(){
         nextArrow: '.arrow-down',
         responsive: [
           {
-            breakpoint: 1200,
+            breakpoint: 1201,
             settings: {
               slidesToShow: 1,
               vertical: false,
